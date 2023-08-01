@@ -42,7 +42,7 @@ def display_data(data):
     print(f"Temperature: {temp_f:.1f}°F")
     print(f"Feels like: {feels_f:.1f}°F")
 # Prompt the user for input
-location = input("Enter a zip code or city name: ")
+location = input("Enter a Zip code or City name: ")
 # Call the get_weather_data function with the user-provided location
 data = get_weather_data(location)
 # Display weather data
